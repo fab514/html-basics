@@ -88,3 +88,36 @@
 ```md
 <button>Click Me!</button>
 ```
+## Image
+- You can insert an image through html. You must have a way to access the image so use the link tag. 
+- You can link to a site or best to link from a file. The a href is bringing in the picture source. The image src
+```md
+<!-- If you have the image within the file you do not need the link tag in your code.  -->
+<!-- <a href="./htmlpic.jpg">  -->
+<!-- You can use the image source and grab from file with ./ -->
+<img src="./htmlpic.jpg" alt="My Sample Image" width="200">
+</a>
+```
+## Abbreviations
+- When using abbreviations you can let the user know what the abbreviation stand for with the abbr tag. You must put in what it stands for, this tag will not automatically know the abbr. 
+```md
+<p>The <abbr title="World Wide Web">WWW</abbr>is awesome!</p>
+```
+## Cite
+- The cite tag will let the browset know that the text you put the tags in is cited. 
+```md
+<p><cite>HTML Crash Course</cite> by Brad Traversy</p>
+```
+
+## HTML Semantic Tags
+- A semantic element clearly describes its meaning to both the browser and the developer. 
+```md
+<header>Top of Document</header>
+<footer>Bottom of the Document</footer>
+<aside>Can be used as a side bar in the document</aside>
+<main>Shows main content of document</main>
+<article>Independent, self contained Element. Should make sense on it's own . Good for bloggers</article>
+<nav>Used for navigation</nav>
+<section>Defines a section in the document</section>
+<details>defines additional details that the user can view or hide.</details>
+```
