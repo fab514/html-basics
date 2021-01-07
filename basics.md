@@ -121,3 +121,4 @@
 <section>Defines a section in the document</section>
 <details>defines additional details that the user can view or hide.</details>
 ```
+## Small tag will make text smaller. 
