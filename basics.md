@@ -35,3 +35,56 @@
 ```
 ## Forms
 - Only can do look of the forms. you need other programs to let it function.
+## labels and textarea vs input
+- <label> are used to show user what information to put in a form. Such as first name, last name, a message etc. You can use tags input and textarea.
+- <imput> is for small bits of information such as names. 
+- <textarea> is for a larger input box such as message. 
+- For the attribute type use the attribute value of "text" for any information with normal text and "email" for a persons email (when using the email value it will send an error if an invalid email is used.)
+- You will not see the text within the name attribute you are calling that element that name. The text between the label tags will be shown. 
+
+
+```md
+<label>First Name</label>
+<input type="text" name="firstName">
+
+<label>Message</label>
+<textarea></textarea>
+```
+- In a form you can put a placeholder in the text box showing the text temporarily until the user starts to put in text. 
+
+```md
+<label>First Name</label>
+<input type="text" name="firstName" placeholder="Enter First Name">
+
+## Select tag
+- You can insert a select option for your form by using the select tag. This will provide you with a drop menu of options. You will also have to provide the option tag. Make sure to set the value and put in the option text.  
+
+```md
+<label>Gender</label>
+<select name="gender">
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+</select>
+```
+## Other values
+- When put in the value of number within the input type it will give you the form with arrow in the window that can be used to change the numbers. 
+- When you put the value of date it will give you a calendar in the window that you can click to find a date. 
+
+```md
+<label>Age:</label>
+<input type="number" name="age" value="30">
+
+<label>Birthday:</label>
+<input type="date" name="birthday">
+
+```
+## Button
+- Within a form you can create a submit button by setting the input to the type submit. Remember the name is not the text shown it is what you are naming the element. The value is the text you see within the button. 
+
+```md
+<input type="submit" name="submit" value="Submit">
+```
+- You can also insert button outside of a form by using the tag button. Just like in forms a button will show but it will not do anything without JS. 
+```md
+<button>Click Me!</button>
+```
